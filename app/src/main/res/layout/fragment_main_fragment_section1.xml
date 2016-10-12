@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marktony.drinkingwater.MainFragment_section1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/section1_tv1"
+        android:textSize="20sp"
+        android:text="@string/section1_tv"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="16dp"
+        android:gravity="right"
+        android:textSize="20sp"
+        android:id="@+id/section1_tv2"/>
+
+    <ProgressBar
+        android:layout_width="320dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="20dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/barcolor"
+        android:progress="0"
+        android:id="@+id/section1_pgsBar" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/section1_tv3"
+        android:gravity="center"
+        android:textColor="#2576ca"
+        android:textSize="20sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/section1_btnMain"
+        android:src="@drawable/plus"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        app:backgroundTint="#2576ca"
+        app:backgroundTintMode="src_over"
+        app:rippleColor="#ffffff"
+        app:borderWidth="0dp"/>
+        <!--如果不设置boderwidth为0dp
+        那么在4.1的sdk上FAB将显示为正方形，且5.0之后的sdk不显示阴影效果-->
+
+</RelativeLayout>

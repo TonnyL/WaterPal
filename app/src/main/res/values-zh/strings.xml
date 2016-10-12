@@ -1,0 +1,111 @@
+<resources>
+
+    <string name="app_name">今天你喝水了吗</string>
+
+    <string name="title_section1">喝水</string>
+    <string name="title_section1_title">首页</string>
+    <string name="title_section2">喝水记录</string>
+    <string name="title_section3">更改体重和水杯</string>
+    <string name="title_section4">通知设置</string>
+    <string name="title_setcion5">应用设置</string>
+    <string name="title_section6">关于我们</string>
+
+    <string name="exitBy2Click_toast">再按一次返回键退回桌面</string>
+
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="history_adapter_date">日期：</string>
+    <string name="history_adapter_clock">时间：</string>
+    <string name="history_adapter_bottle_part1">水杯容量：</string>
+    <string name="history_adapter_bottle_part2">ml</string>
+
+    <string name="section1_tv">喝水目标：</string>
+    <string name="section1_dialog_t">恭喜您</string><!--title-->
+    <string name="section1_dialog_m">您今天已经成功达到了喝水目标！</string><!--message-->
+    <string name="section1_dialog_p">我知道了</string><!--positive btn-->
+    <string name="section1_dialog_n">分享给好友</string><!--negative btn-->
+    <string name="section1_toast">添加成功！</string>
+    <string name="section1_tv3_firstlaunch">从屏幕左边向右滑动打开抽屉\n添加你的体重和水杯容量</string>
+    <string name="section1_tv3_morning">以饱满的精神状态迎接美好的一天吧\n当你喝一杯水后\n请点击+号按钮添加记录</string><!--这里添加早上的问候语-->
+    <string name="section1_tv3_noon">中午好！\n当你喝一杯水后\n请点击+号按钮添加记录</string><!--这里添加中午的问候语-->
+    <string name="section1_tv3_afternoon">下午好！\n当你喝一杯水后\n请点击+号按钮添加记录</string><!--这里添加下午的问候语-->
+    <string name="section1_tv3_evening">晚上好！\n当你喝一杯水后\n请点击+号按钮添加记录</string><!--这里添加晚上的问候语-->
+    <string name="section1_tv3_addone">当你喝一杯水后\n请点击+号按钮添加记录</string><!--这里提示用户通过点击加号来添加喝水的记录-->
+    <string name="toast_alert">你今天的喝水量已经超过安全范围了。。。</string>
+
+    <string name="section2_tv">空空如也</string>
+
+    <string name="title_register">更新数据</string>
+    <string name="section3_register_tv">请输入你的体重和水杯容量：</string>
+    <string name="section3_register_et1_hint">输入你的整数体重(KG)</string>
+    <string name="section3_register_et2_hint">输入你的水杯容量(ML)</string>
+    <string name="section3_register_btn1">清除</string>
+    <string name="section3_register_btn2">确定</string>
+    <string name="section3_register_snackbar_text">更新成功！</string>
+    <string name="section3_register_snackbar_action">我知道了</string>
+    <string name="section3_register_weight_error1">输入应该小于3位</string>
+    <string name="section3_register_cup_error1">输入应该小于4位</string>
+    <string name="section3_register_weight_error2">输入范围为1~400</string>
+    <string name="section3_register_cup_error2">输入范围为1~9999</string>
+
+    <string name="share_intent_title">分享给我的好友们</string>
+    <string name="share_intent_text1">我今天完成了我的喝水目标，你也来试试吧！在应用市场搜索 今天你喝水了吗 下载体验吧！</string>
+    <string name="share_intent_text2">今天你喝水了吗，关注您的喝水健康！</string>
+
+    <string name="section_share">分享</string><!--overflow菜单-->
+
+    <string name="section4_tv_on_off">开 / 关</string>
+    <string name="section4_tv_notifications">通知</string>
+    <string name="section4_tv_noti_type">提醒类型</string>
+    <string name="section4_tv_auto_noti">自动提醒</string>
+    <string name="section4_tv_auto_noti_time">10:00-21:00 每1小时</string>
+    <string name="section4_tv_manual_noti">手动设置提醒</string>
+    <string name="section4_tv_manual_noti_time">10:00,11:00,12:00,13:00,14:00,15:00,16:00,17:00,18:00,19:00,20:00,21:00</string>
+
+    <string name="manualnoti_snack">正在努力开发中！</string>
+
+    <string name="section4_tv_other">其他</string>
+
+    <string name="noti_title">到喝水时间了哟！</string>
+    <string name="noti_no_progress">你今天还没有喝水哦！</string>
+    <string name="noti_text_part1">已经喝水</string>
+    <string name="noti_text_part2">ml</string>
+    <!--<string name="noti_info">这里是通知的info</string>-->
+
+    <string name="section5_tv_base_setting">基本设置</string>
+    <string name="section5_tv_noti_congratulate">显示恭喜提示</string>
+    <string name="section5_tv_other">其他设置</string>
+    <string name="section5_tv_language">语言</string>
+    <string name="section5_tv_auto_update">自动检测新版本</string>
+    <string name="section5_tv_report">报告翻译错误</string>
+    <string name="section5_tv_report_small">报告并纠正我们的翻译错误</string>
+    <string name="section5_tv_report_mail_subject">今天你喝水了吗 翻译错误</string>
+
+    <string name="language_ZH">中文(简体)</string>
+    <string name="language_En">English</string>
+
+    <string name="section6_tv_feedback">反馈/建议</string>
+    <string name="section6_tv_sharetofriends">分享给朋友</string>
+    <string name="section6_tv_score">为我们评分</string>
+    <string name="section6_tv_vertion">版本：1.1.2</string>
+    <string name="section6_tv_update">检测新版本</string>
+    <string name="section6_toast_updateResponse_NO">已是最新版本！</string>
+    <string name="section6_mail_subject">今天你喝水了吗 建议与反馈</string><!--邮件的主题-->
+    <string name="section6_mail_text1">手机型号：</string>
+    <string name="section6_mail_text2">SDK版本：</string>
+    <string name="section6_mail_text3">系统版本：</string>
+    <string name="section6_mail_chooser">请选择邮件类应用</string><!--选择邮件应用时的title-->
+    <string name="section6_mail_uri">mailto:marklztl@sina.cn</string><!--uri--><!--mailto:不能省略-->
+    <string name="section6_mail_cc">marktonymengyi@gmail.com</string><!--抄送人-->
+    <string name="section6_share_text">我发现了一款不错的APP，在应用市场搜索 今天你喝水了吗 下载体验吧！</string>
+    <string name="section6_share_title">分享</string>
+    <string name="section6_version_dialog_title">感谢</string>
+    <string name="section6_version_dialog_msg">雁霓霓、\n小马</string>
+    <string name="section6_version_dialog_btn">确定</string>
+
+
+</resources>

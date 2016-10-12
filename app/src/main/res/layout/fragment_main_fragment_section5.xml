@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.marktony.drinkingwater.fragment.MainFragment_section5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section5_tv_base_setting"
+                    android:textSize="16sp"
+                    android:textColor="@drawable/blue"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section5_tv_noti_congratulate"
+                    android:textColor="#585858"
+                    android:textSize="18sp"
+                    android:layout_weight="5"/>
+
+                <com.rey.material.widget.Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/section5_sw_noti_congratulate" />
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section5_tv_auto_update"
+                    android:textColor="#585858"
+                    android:textSize="18sp"
+                    android:layout_weight="5"/>
+
+                <com.rey.material.widget.Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/section5_sw_auto_update" />
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section5_tv_other"
+                    android:textSize="16sp"
+                    android:textColor="@drawable/blue"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:clickable="true"
+                android:id="@+id/section5_LL_language"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#585858"
+                    android:textSize="18sp"
+                    android:text="@string/section5_tv_language"/>
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:maxWidth="180dp"
+                    android:textColor="@drawable/gray"
+                    android:id="@+id/section5_tv_language_small"/>
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:clickable="true"
+                android:id="@+id/section5_LL_report"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section5_tv_report"
+                    android:textColor="#585858"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:maxWidth="180dp"
+                    android:textColor="@drawable/gray"
+                    android:text="@string/section5_tv_report_small"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

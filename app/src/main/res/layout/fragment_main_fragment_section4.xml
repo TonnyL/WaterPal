@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.marktony.drinkingwater.fragment.MainFragment_section4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section4_tv_on_off"
+                    android:textSize="16sp"
+                    android:textColor="@drawable/blue"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section4_tv_notifications"
+                    android:textColor="#585858"
+                    android:textSize="18sp"
+                    android:layout_weight="5"/>
+
+                <com.rey.material.widget.Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/section4_sw_notifications" />
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section4_tv_noti_type"
+                    android:textColor="@drawable/blue"
+                    android:layout_marginTop="12dp"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section4_tv_auto_noti"
+                    android:id="@+id/section4_tv_auto_noti"
+                    android:textSize="18sp"
+                    android:layout_weight="5"/>
+
+                <com.rey.material.widget.Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/section4_sw_auto_noti"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/gray"
+                    android:text="@string/section4_tv_auto_noti_time"/>
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/section4_LL_Manual_noti"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/section4_tv_manual_noti"
+                        android:id="@+id/section4_tv_manual_noti"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxWidth="180dp"
+                        android:textColor="@drawable/gray"
+                        android:text="@string/section4_tv_manual_noti_time"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

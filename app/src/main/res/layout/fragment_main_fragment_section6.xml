@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context="com.marktony.drinkingwater.fragment.MainFragment_section6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:id="@+id/section6_LL_feedback">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/message" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/section6_tv_feedback"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="#585858"/>
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:clickable="true"
+                android:id="@+id/section6_LL_sharetofriends">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/share"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/section6_tv_sharetofriends"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="#585858"/>
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:clickable="true"
+                android:id="@+id/section6_LL_score">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/star"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/section6_tv_score"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="#585858"/>
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:id="@+id/section6_LL_update">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/synchronize"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/section6_tv_update"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="#585858"/>
+
+            </LinearLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:id="@+id/section6_LL_version"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/info"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/section6_tv_vertion"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="#585858"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

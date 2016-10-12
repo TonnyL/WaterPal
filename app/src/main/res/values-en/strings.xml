@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WaterPal</string>
+
+    <string name="title_section1">DrinkWater</string>
+    <string name="title_section1_title">Home</string>
+    <string name="title_section2">DrinkLog</string>
+    <string name="title_section3">UpdateWeightCup</string>
+    <string name="title_section4">NotificationSettings</string>
+    <string name="title_setcion5">AppSettings</string>
+    <string name="title_section6">About</string>
+
+    <string name="am">A.M.</string>
+    <string name="pm">P.M.</string>
+
+    <string name="exitBy2Click_toast">Press again to exit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="history_adapter_date">Date:</string>
+    <string name="history_adapter_clock">Time:</string>
+    <string name="history_adapter_bottle_part1">Cup:</string>
+    <string name="history_adapter_bottle_part2">ml</string>
+
+    <string name="section1_tv">DRINK TARGET</string>
+    <string name="section1_dialog_t">CONGRATULATION</string><!--title-->
+    <string name="section1_dialog_m">Daily goal reached!</string><!--message-->
+    <string name="section1_dialog_p">OK</string><!--positive btn-->
+    <string name="section1_dialog_n">SHARE</string><!--negative btn-->
+    <string name="section1_toast">SUCCESS!</string>
+    <string name="section1_tv3_firstlaunch">Swipe from the left of screen to open the navigation drawer\n Add your weight and cup</string>
+    <string name="section1_tv3_morning">
+        Even a great life is only a life until you make it.\nAfter drinking a cup of water\n click "+" button to record
+    </string><!--这里添加早上的问候语--><!--美好生活,自己创造.-->
+    <string name="section1_tv3_noon">Good afternoon！\nAfter drinking a cup of water\n click "+" button to record</string>
+    <!--这里添加中午的问候语-->
+    <string name="section1_tv3_afternoon">Good afternoon！\nAfter drinking a cup of water\n click "+" button to record</string>
+    <!--这里添加下午的问候语-->
+    <string name="section1_tv3_evening">Good evening！\nAfter drinking a cup of water\n click "+" button to record</string>
+    <!--这里添加晚上的问候语-->
+    <string name="section1_tv3_addone">After drinking a cup of water\n click "+" button to record</string>
+    <!--这里提示用户通过点击加号来添加喝水的记录-->
+    <string name="toast_alert">You drank too much water today...</string>
+
+    <string name="section2_tv">No log information...</string>
+
+    <string name="section3_register_tv">Please input your weight and cup:</string>
+    <string name="section3_register_et1_hint">WEIGHT(KG,intager only)</string>
+    <string name="section3_register_et2_hint">CUP(ML,intager only)</string>
+    <string name="section3_register_btn1">CLEAR</string>
+    <string name="section3_register_btn2">OK</string>
+    <string name="section3_register_snackbar_text">Succeed！</string>
+    <string name="section3_register_snackbar_action">Get it</string>
+    <string name="section3_register_weight_error1">No more than 3 letters</string>
+    <string name="section3_register_cup_error1">No more than 4 letters</string>
+    <string name="section3_register_weight_error2">It should be between 1 and 400</string>
+    <string name="section3_register_cup_error2">It should be between 1 and 9999</string>
+
+    <string name="share_intent_title">Share with my friends</string>
+    <string name="share_intent_text1">I reached the drink goal today,search WaterPal in APP store ,download and enjoy it!</string>
+    <string name="share_intent_text2">Focus on your health</string>
+
+    <string name="section_share">Share</string><!--overflow菜单-->
+
+    <string name="section4_tv_on_off">On / Off</string>
+    <string name="section4_tv_notifications">Notification</string>
+    <string name="section4_tv_noti_type">Reminder type</string>
+    <string name="section4_tv_auto_noti">Auto reminders</string>
+    <string name="section4_tv_auto_noti_time">10:00-21:00 every hour</string>
+    <string name="section4_tv_manual_noti">Manually set reminders</string>
+    <string name="section4_tv_manual_noti_time">10:00,11:00,12:00,13:00,14:00,15:00,16:00,17:00,18:00,19:00,20:00,21:00</string>
+
+    <string name="manualnoti_snack">We are working hard to achieve it!</string>
+
+    <string name="section4_tv_other">Others</string>
+
+    <string name="noti_title">It is time to drink water!</string>
+    <string name="noti_no_progress">You did not drink any water today</string>
+    <string name="noti_text_part1">You have drunk\t</string>
+    <string name="noti_text_part2">ml</string>
+    <!--<string name="noti_info">这里是通知的info</string>-->
+
+    <string name="section5_tv_base_setting">General</string>
+    <string name="section5_tv_noti_congratulate">Show the congratulatations</string>
+    <string name="section5_tv_other">Other Settings</string>
+    <string name="section5_tv_language">Language</string>
+    <string name="section5_tv_auto_update">Auto check for new version</string>
+    <string name="section5_tv_report">Report translation errors</string>
+    <string name="section5_tv_report_small">Report and correct our translation errors</string>
+    <string name="section5_tv_report_mail_subject">Translation errors</string>
+
+    <string name="language_ZH">中文(简体)</string>
+    <string name="language_En">English</string>
+
+    <string name="section6_tv_feedback">Feedback/Advice</string>
+    <string name="section6_tv_sharetofriends">Share with friends</string>
+    <string name="section6_tv_score">Rate us</string>
+    <string name="section6_tv_vertion">version:1.1.2</string>
+    <string name="section6_tv_update">Check for new version</string>
+    <string name="section6_toast_updateResponse_NO">It is the latest version!</string>
+    <string name="section6_mail_subject">WaterPal Feedback/Advice</string><!--邮件的主题-->
+    <string name="section6_mail_text1">Product model:</string><!--手机型号-->
+    <string name="section6_mail_text2">SDK version:</string><!--SDK版本-->
+    <string name="section6_mail_text3">Version release:</string><!--系统版本-->
+    <string name="section6_mail_chooser">Choose the mail APP</string><!--选择邮件应用时的title-->
+    <string name="section6_mail_uri">mailto:marklztl@sina.cn</string><!--uri--><!--mailto:不能省略-->
+    <string name="section6_mail_cc">marktonymengyi@gmail.com</string><!--抄送人-->
+    <string name="section6_share_text">I find an excellent APP,search WaterPal in APP store ,download and enjoy it!</string>
+    <string name="section6_share_title">Share</string>
+    <string name="section6_version_dialog_title">Thanks to</string>
+    <string name="section6_version_dialog_msg">雁霓霓、\n小马</string>
+    <string name="section6_version_dialog_btn">OK</string>
+
+</resources>

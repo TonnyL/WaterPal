@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--自定义ProgressBar的背景颜色以及进度条的颜色-->
+    <!--  设置背景色（黑色）  -->
+    <item  android:id="@android:id/background" >
+        <shape>
+            <corners android:radius="10dip" />
+            <gradient android:startColor="#2576ca"
+                android:endColor="#2576ca" />
+        </shape>
+    </item>
+
+    <!--  设置进度条颜色（白色）  -->
+    <item  android:id="@android:id/progress" >
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+                <gradient  android:startColor="#ffffff"
+                    android:endColor="#ffffff" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
