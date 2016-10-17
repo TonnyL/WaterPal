@@ -1,6 +1,6 @@
 # 今天你喝水了吗
 
-项目目前已经停止维护，且项目中存在一定的bug未修复，仅供参考使用。
+这是当初刚学Android开发时的练手项目，目前已经停止维护，且项目中存在一定的bug未修复，仅供参考使用。
 
 ### 运行效果
 ![screenshot](https://github.com/marktony/WaterPal/blob/master/screenshot/waterpal0.png)
