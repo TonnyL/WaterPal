@@ -4,9 +4,6 @@
 
 ### 运行效果
 ![screenshot](https://github.com/marktony/WaterPal/blob/master/screenshot/waterpal0.png)
-![screenshot](https://github.com/marktony/WaterPal/blob/master/screenshot/waterpal1.png)
-![screenshot](https://github.com/marktony/WaterPal/blob/master/screenshot/waterpal2.png)
-![screenshot](https://github.com/marktony/WaterPal/blob/master/screenshot/waterpal3.png)
 
 ### 下载试用
 [小米应用商店](http://app.mi.com/details?id=com.marktony.drinkingwater)
